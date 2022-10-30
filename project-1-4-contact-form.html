@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Project-1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/project-1.css'>
+    <script src='main.js'></script>
+     <!-- FONT AWESOME -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body>   
+    <header>
+        <div class="container"> 
+            <div class="logo">
+                <a><img alt="Logo-BeSmart" src="img/bs04.png" /></a>
+            </div>
+            <nav>                
+                <ul class="menu-horizontal">
+                    <li><a href="project-1-home.html">Home</a></li>
+                    <li><a href="project-1-2-about-us.html">About us</a>
+                        <ul class="menu-vertical">
+                            <li><a href="project-1-2-staff.html">Staff</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>Products</a>
+                        <ul class="menu-vertical">
+                            <li><a href="project-1-3-products-deals.html">Deals</a></li>
+                            <li><a href="project-1-3-products-electronic.html">Electronic</a></li>
+                            <li><a href="project-1-3-products-music.html">Music</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="project-1-4-contact-form.html">Contact</a></li>
+                </ul>
+            </nav> 
+        </div> 
+    </header>
+    <section id="home">
+        <div class="infor">
+            <div class="center-about">
+                <h1>Contact us</h1>
+                <div class="contact-wrapper">   
+                    <div class="contact-form">
+                        <h2>Contact us</h2>
+                        <form action="http://vip.groupehn.com:20003/html/infospost.php" method="post">
+                            <p>
+                                <label for="firstname">Firstname</label>
+                                <input id="firstname" type="text" name="firstname" placeholder="firstname"/>
+                            </p>
+                            <p>
+                                <label for="lastname">Lastname</label>
+                                <input id="lastname" type="text" name="lastname" placeholder="lastname"/>
+                            </p>
+                            <p>
+                                <label for="email">Email address</label>
+                                <input id="email" type="email" name="email" placeholder="yourmail@gmail.com"/>
+                            </p>
+                            <p>
+                                <label for="country">Country</label>
+                                <select name="country" id="country">
+                                    <option value="Albania">Albania</option>
+                                    <option value="Algeria">Algeria</option>
+                                    <option value="Finland">Finland</option>
+                                    <option value="France">France</option>
+                                    <option value="Germany">Germany</option>
+                                    <option value="Italy">Italy</option>
+                                    <option value="Poland">Poland</option>
+                                    <option value="Portugal">Portugal</option>
+                                    <option value="Spain">Spain</option>
+                                    <option value="Ukraine">Ukraine</option>
+                                    <option value="United Arab Emirates">United Arab Emirates</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="United States">United States</option>
+                                    <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                                    <option value="Uruguay">Uruguay</option>
+                                    <option value="Uzbekistan">Uzbekistan</option>
+                                    <option value="Vanuatu">Vanuatu</option>
+                                    <option value="Venezuela">Venezuela</option>
+                                </select>
+                            </p>
+                            <p class="block">
+                                <label for="request">Resquest</label>
+                                <textarea name="request" id="request" cols="66" rows="10" placeholder="Write somenthing here"></textarea>
+                            </p>
+                            <p class="block">
+                                <button type="submit">
+                                    Send
+                                </button>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h2>More info</h2>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> C/Sol 37, 28016 - Madrid</li>
+                            <li><i class="fas fa-map-marker-alt"></i> C/Goya 2, 28018 - Madrid</li>
+                            <li><i class="fas fa-phone"></i> (+34) 691 555 111</li>
+                            <li><i class="fas fa-envelope-open-text"></i> contact@besmart.com</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cum tempora id neque corporis eaque vitae dignissimos vel eius autem?</p>
+                        <p>www.besmart.com</p>
+                    </div>
+                </div>                         
+            </div>
+        </div>        
+    </section>   
+    <footer>
+        <p>&copy; BeSmart, 2022.</p>       
+    </footer>     
+</body>
+</html>
